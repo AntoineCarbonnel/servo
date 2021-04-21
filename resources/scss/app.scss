@@ -1,0 +1,17 @@
+@import "var";
+
+body {
+    font-family: 'rubik', sans-serif;
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: $dark;
+    color: $white;
+}
