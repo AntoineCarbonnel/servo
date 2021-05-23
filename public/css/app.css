@@ -53,11 +53,62 @@ body {
   min-height: 100vh;
 }
 
-header {
+.container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+header {
   width: 100%;
   background-color: #1D1C14;
   color: #FCFCFA;
+  padding: 15px 0;
+}
+header #logo {
+  font-weight: 700;
+  font-size: 28px;
+}
+header label {
+  max-width: 700px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 4;
+}
+header label #searchbar {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+header label #searchbar:focus {
+  outline: none;
+}
+header label span {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 23px;
+  background-color: #7D7962;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header label span > img {
+  height: 12px;
+  width: auto;
+}
+header .navigation {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  height: 20px;
 }
